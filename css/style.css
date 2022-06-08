@@ -1,0 +1,129 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 100vh;
+  background-color: rgb(92, 93, 107);
+  background-image: url(https://images.hdqwalls.com/download/norway-lofoten-mountains-evening-coast-5k-tk-1920x1080.jpg);
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+header button {
+  width: 170px;
+  height: 55px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.mytextsize {
+  font-size: 35px;
+}
+
+.scrolldown {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 3%;
+  color: #fff;
+  font-size: 60px;
+}
+.scrolldown:hover {
+  color: #fff;
+}
+
+.promocard img {
+  width: 120px;
+  margin-bottom: 30px;
+}
+
+.our-work {
+  padding: 50px 0;
+  background-color: rgb(238, 235, 235);
+}
+.our-work h1 {
+  text-transform: uppercase;
+}
+
+.carret {
+  width: 70px;
+  color: rgb(0, 0, 0);
+  margin: auto;
+  margin-top: 40px;
+}
+
+.servcard h1 {
+  color: gray;
+}
+.servcard h1::first-letter {
+  font-size: 85px;
+}
+
+.our-works {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.our-works h1 {
+  text-transform: uppercase;
+}
+
+.promocard2 img {
+  width: 400px;
+  margin-bottom: 30px;
+  padding: 5px 5px 5px 5px !important;
+}
+
+.sliders .carousel-inner {
+  background-color: #2e4862;
+  background-image: url(../img/2385669.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
+}
+
+.carousel-item {
+  height: 600px;
+  padding-top: 100px;
+}
+.carousel-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.carousel-item .mine-text {
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+  background-color: #000000;
+}
+
+.awes {
+  margin-left: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
