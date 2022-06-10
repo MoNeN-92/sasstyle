@@ -3,6 +3,10 @@ html {
 }
 a {
     text-decoration: none;
+    color: #000000;
+    &:hover{
+      color: #000000;
+    }
 }
 header {
     height: 100vh;
@@ -52,13 +56,6 @@ header {
         text-transform: uppercase;
     }
 }
-.carret{
-    width: 70px;
-    color: rgb(0, 0, 0);
-    margin: auto;
-    margin-top: 40px;
-}
-
 .servcard {
     h1 {
         color: gray;
@@ -121,6 +118,26 @@ header {
 .awes {
     margin-left: 50px;
 }
-.mycardsize {
-    
+.carret {
+    height: 3px;
+    background-color: gold;
+    width: 70px;
+    margin: auto;
+    margin-top: 40px;
 }
+.carrett {
+    height: 3px;
+    background-color: #fff;
+    width: 70px;
+    margin: auto;
+    margin-top: 40px;
+}
+.mybpcolor {
+    background-color: #495468;
+    
+    .myformstyle {
+        max-width: 50%;
+    }
+   
+}
+
