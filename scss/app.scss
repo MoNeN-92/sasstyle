@@ -18,7 +18,7 @@ header {
     position: relative;
     button {
         width: 170px;
-        height: 55px;
+        height: 55px; 
         font-weight: bold;
         text-transform: uppercase;
     }
@@ -131,13 +131,18 @@ header {
     width: 70px;
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 .mybpcolor {
     background-color: #495468;
-    
-    .myformstyle {
-        max-width: 50%;
+}
+.my-border-color {
+        background-color: #495468;
+}
+.my-btnstyle {
+    button:hover {
+background-color:#495468 ;
+box-shadow: none;
     }
-   
 }
 

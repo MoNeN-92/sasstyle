@@ -137,13 +137,20 @@ header button {
   width: 70px;
   margin: auto;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .mybpcolor {
   background-color: #495468;
 }
-.mybpcolor .myformstyle {
-  max-width: 50%;
+
+.my-border-color {
+  background-color: #495468;
+}
+
+.my-btnstyle button:hover {
+  background-color: #495468;
+  box-shadow: none;
 }
 
 /*# sourceMappingURL=style.css.map */
